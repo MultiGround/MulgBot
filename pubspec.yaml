@@ -1,0 +1,22 @@
+name: MulgBot
+version: 1.0.0
+publish_to: none
+environment:
+  sdk: '>=2.13.0 <3.0.0'
+dependencies:
+  logging: "^1.0.0"
+  nyxx: "^2.0.3"
+  nyxx_extensions: ^2.0.0
+  nyxx_interactions: "^2.0.0"
+  nyxx_commander: "^2.0.0"
+  nyxx_lavalink:
+    git:
+      url: https://github.com/AlvaroMS25/nyxx.git
+      ref: dev
+      path: nyxx_lavalink/
+  postgres: "^2.3.2"
+  time_ago_provider: "^4.0.0"
+  migent:
+    git: git://github.com/nyxx-discord/migent.git
+  shelf_router: ^1.1.1
+  shelf: ^1.2.0
