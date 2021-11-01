@@ -1,0 +1,3 @@
+core: !!map
+  ping: pong
+
